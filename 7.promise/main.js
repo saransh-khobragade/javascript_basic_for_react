@@ -19,3 +19,5 @@ console.log("async_function_with_promise then-------")
 async_function_with_promise().then((x)=>{
     console.log(x)
 })
+
+console.log("every thing ends")
