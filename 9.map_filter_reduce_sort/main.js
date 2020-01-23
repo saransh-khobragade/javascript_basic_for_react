@@ -1,4 +1,4 @@
-const a = [1,9,2,3,7,2,0]
+const a = [1,9,2,3,7,2,10]
 const b = [{a:1,b:2},{a:4,b:5},{a:6,b:9},{a:10,b:12}]
 
 //map
@@ -29,8 +29,9 @@ console.log("8",a.reduce((accumulator,ele,index)=>{
 console.log("9",a.sort())
 console.log("10",a.sort((x,y)=>x-y))  //asc
 console.log("11",a.sort((x,y)=>y-x))  //desc
-console.log("12",a.sort((x,y)=>x-y))
-console.log("13",b.sort((x,y)=>x.a-y.a))  //sorting array of object
+
+console.log("13",b.sort((x,y)=>x.a-y.a))
+console.log("14",b.sort((x,y)=>y.a-x.a))  //sorting array of object desc
 
 
 

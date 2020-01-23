@@ -17,8 +17,9 @@ console.log("async_function---------")
 
 //Async function
 const async_function = () => {
+    
     setTimeout(()=>{
-        console.log("2")
+        console.log("async 2")
     },2000)
     //some api taking 2000 response time
 }
@@ -30,12 +31,12 @@ callback_function() //3
 
 
 
-// //Async function with callback
-// console.log("async_function_with_callback-------- start")
+//Async function with callback
+console.log("async_function_with_callback-------- start")
 
-// const async_function_with_callback = (callback) => {
-//     setTimeout(callback,5000)
-// }
-// console.log("1")
-// console.log("2")
-// async_function_with_callback(callback_function)
+const async_function_with_callback = (callback) => {
+    setTimeout(callback,5000)
+}
+console.log("1")
+console.log("2")
+async_function_with_callback(callback_function)

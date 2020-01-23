@@ -1,4 +1,4 @@
-var a = document.getElementById("abc").innerHTML
+var a = document.getElementById("abc").innerText
 console.log(a)
 
 

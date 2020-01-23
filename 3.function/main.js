@@ -28,7 +28,7 @@ function xyz(m,n){
     this.a=m
     this.b=n
     console.log("7",this)
-    console.log(arguments)
+    console.log("11",arguments)
 }
 const b = new xyz(2,3)
 console.log("8",b.a)

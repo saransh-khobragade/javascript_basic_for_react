@@ -36,6 +36,8 @@ const let_const_mutable = () =>{
     a['name']="saransh"
     a['age']=23
 
+    //const a={}
+
     let b=[]
     b.push(1)
     

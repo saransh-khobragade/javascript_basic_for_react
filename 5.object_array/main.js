@@ -1,5 +1,5 @@
 //Object
-var a = {
+const a = {
     "name": "saransh",
     "age": 23,
     "company":{
@@ -25,7 +25,7 @@ console.log("5",d)
 
 //loops in object
 for (let x in a){
-    console.log(x)
+    console.log("loop",a[x])
 }
 
 //check key in object
@@ -65,8 +65,8 @@ c.push(11)  //add to last
 c.pop()     //removes last ele
 c.shift()   //removes first ele
 c.unshift(4)  //add first ele
-c.slice(0,2)    //array from position 0 to 2
-c.splice(1,2,12)    //from 1st position 2 ele will be removed and 12 will be inserted at same place
+c.slice(0,2)    //array from position 0 to 2 ,return new array
+c.splice(1,2,12)    //from 1st position 2 ele will be removed and 12 will be inserted at same place ,this change in orignal array
 
 console.log(c)
 
